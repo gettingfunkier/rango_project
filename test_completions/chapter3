@@ -1,0 +1,9 @@
+(venv) jimihamilton@Lalah-Hathaway-sang-two-notes rango_project % python3 manage.py test rango.tests_chapter3
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+............
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+OK
+Destroying test database for alias 'default'...
