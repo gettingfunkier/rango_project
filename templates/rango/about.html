@@ -22,14 +22,12 @@
         </div>
 
         <div>
-            <img src="{% static 'images/rango.jpg' %}"
-                alt="Picture of Rango" /> <!-- New line -->
+            <img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
         </div>
         <p>f/20, 1/20s, ISO 125, 50mm, Sony A6400, Glasgow city centre, 2025-02-02, by Jimi Hamilton. (not a picture of rango)</p>
 
         <div>
-        <img src='../../media/cat.jpg' 
-            alt="Picture of a cat" />   <!-- New line -->
+        <img src="{{ MEDIA_URL }}cat.jpg" alt="Picture of a Cat" />
         </div>
     </body>
 </html>
