@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{% load staticfiles %} <!-- New line -->
+
 <html>
 
     <head>
@@ -15,6 +18,9 @@
 
         <div>
             <a href="/rango/about/">About</a><br />
+            <img src="{% static 'images/train.jpg' %}"
+                alt="Image of a ScotRail train" /> <!-- New line -->
+                <p>f/20, 1/20s, ISO 125, 50mm, Sony A6400, Glasgow city centre, 2025-02-02, by Jimi Hamilton.</p>
         </div>
     </body>
 </html>
