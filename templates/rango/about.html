@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+{% load staticfiles %} <!-- New line -->
+
+<html>
+
+    <head>
+        <title>About</title>
+    </head>
+
+    <body>
+        <h1>Rango says... </h1>
+
+        <div>
+            here is the about page. <br />
+            <strong>{{ boldmessage }}</strong><br />
+        </div>
+
+        <div>
+            <a href='/rango/'>Index</a> | 
+            <a href="https://github.com/gettingfunkier">github</a>
+        </div>
+
+        <div>
+            <img src="{% static 'images/train.jpg' %}"
+                alt="Image of a ScotRail train" /> <!-- New line -->
+                <p>f/20, 1/20s, ISO 125, 50mm, Sony A6400, Glasgow city centre, 2025-02-02, by Jimi Hamilton.</p>
+        </div>
+
+        <div>
+        <img src='../../media/cat.jpg' 
+            alt="Picture of a cat" />   <!-- New line -->
+        </div>
+    </body>
+</html>
